@@ -1,10 +1,10 @@
-#Michael Quinn Parkinson - A Simple Collisional RK4 Code
+#Michael Quinn Parkinson - A Simple Collisional Code
 # This code calculates the dynamics of two-dimensional particles
 # Each particle is the same mass and mutually interacting gravitationally
 # The Particles are allowed to collide but the approach for collison is
 # extremely simple. This program was created to test a simple accretion model.
 # Object accretion has not been added yet.
-# The integration method is a fourth order Runge-Kutta method.
+# The integration method is the Forward Euler.
 # A Picture is created of the interactions which then can be made
 #into a movie via ffmpeg.
 
